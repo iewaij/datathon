@@ -43,9 +43,9 @@ oracle_connection_string = (
 # create connection engine
 engine = create_engine(
     oracle_connection_string.format(
-        username="MADS_021",
-        password="MADS_021",
-        hostname="svr-oracle-dbee.francecentral.cloudapp.azure.com",
+        username="MADS_***",
+        password="MADS_***",
+        hostname="***-***-****.francecentral.cloudapp.azure.com",
         port="1521",
         database="dbee",
     )
